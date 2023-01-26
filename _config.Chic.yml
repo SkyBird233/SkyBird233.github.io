@@ -7,6 +7,7 @@ nav:
   Posts: /archives
   # Categories: /category
   # Tags: /tag
+  Status: https://status.skybirds.sbs
   About: /about
 
 # favicon
@@ -16,7 +17,7 @@ favicon: /favicon.ico
 nickname: Sky Bird
 
 ### this variable is MarkDown form.
-description: "reading, gaming, coding, but finished nothing"
+description: "Reading, gaming, coding, but finished nothing"
 avatar: /image/avatar.png
 
 # main menu navigation
