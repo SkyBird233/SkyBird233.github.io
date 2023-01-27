@@ -133,6 +133,32 @@ export async function handleRequest(request){
 #### Route 设置
 Route：`example.com/.well-known/matrix/*`
 
+# 运行
+## 启动
+在 docker-compose.yml 所在目录执行：
+```sh
+docker compose start
+```
+> 较旧 Docker 可能要把 `docker compose` 换成 `docker-compose`
+
+只是测试的话可以：
+```sh
+docker compose up
+```
+这样可以实时查看那两个容器的输出，`Ctrl + C` 停止。
+
+## 停止
+在 docker-compose.yml 所在目录执行：
+```sh
+docker compose stop
+```
+
+## 日志
+```sh
+docker logs dendrite-monolith-1 -n [lines]
+# -n 指定行数，从末尾算起
+```
+
 # 测试
 可以使用 [Federation Tester](https://federationtester.matrix.org/) 测试 federation 情况。客户端的话直接用客户端测试即可（记得开注册）。以及 Element Desktop 调试快捷键是 `Ctrl + Shift + I`。
 
