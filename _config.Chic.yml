@@ -52,6 +52,7 @@ links:
   # Weibo:
   # WeChat:
   Github: https://github.com/SkyBird233
+  RSS: /atom.xml
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
